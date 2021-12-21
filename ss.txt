@@ -1,0 +1,9 @@
+#Here we are taking a dataset which tells about how much a waiter is getting the tip in a restaurant and the given fiels are total_bill,
+#gender,smokere,day,time 
+
+
+pip install pandas
+import pandas as pd
+pd.read_sql('Select * from project',engine)
+
+#This command executes the code and outputs all the attributes in database
